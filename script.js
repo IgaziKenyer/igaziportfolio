@@ -18,5 +18,5 @@ function closeLightbox() {
   document.getElementById('lightbox').style.display = 'none';
 }
 
-// Show first project by default
 showProject('project1');
+
