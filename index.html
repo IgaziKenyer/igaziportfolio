@@ -1,9 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Name – Game Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+  <!-- SECTION 1: INTRO -->
+  <section id="intro">
+    <h1>Your Name</h1>
+    <p class="subtitle">Game Developer · Programmer · Designer</p>
 
+    <p>
+      Short paragraph about who you are, what you focus on,
+      and what kinds of games/systems you like building.
+    </p>
+
+    <div class="links">
+      <a href="https://github.com/yourname" target="_blank">GitHub</a>
+      <a href="https://itch.io/profile/yourname" target="_blank">itch.io</a>
+      <a href="mailto:you@email.com">Email</a>
+    </div>
+  </section>
+
+  <!-- SECTION 2: PROJECTS -->
+  <section id="projects">
+
+    <!-- Project selector -->
+    <div class="project-buttons">
+      <button onclick="showProject('project1')">Project One</button>
+      <button onclick="showProject('project2')">Project Two</button>
+      <button onclick="showProject('project3')">Project Three</button>
+    </div>
+
+    <!-- PROJECT 1 -->
+    <div class="project" id="project1">
+      <h2>Project One</h2>
+      <p class="role">Solo Developer · Unity · C#</p>
+
+      <div class="media">
+        <!-- Video -->
+        <iframe
+          src="https://www.youtube.com/embed/VIDEO_ID"
+          allowfullscreen>
+        </iframe>
+
+        <!-- Image -->
+        <img src="images/project1_1.gif" alt="Gameplay gif" />
+      </div>
+
+      <p>
+        Short description of the game.
+        What makes it interesting, what problem you solved,
+        what system you’re proud of.
+      </p>
+
+      <!-- itch.io embed -->
+      <iframe
+        frameborder="0"
+        src="https://itch.io/embed/GAME_ID"
+        width="552"
+        height="167">
+      </iframe>
+    </div>
+
+    <!-- PROJECT 2 -->
+    <div class="project" id="project2">
+      <h2>Project Two</h2>
+      <p class="role">Gameplay Programmer</p>
+
+      <div class="media">
+        <img src="images/project2_1.png" />
+        <img src="images/project2_2.png" />
+      </div>
+
+      <p>
+        Description for project two.
+      </p>
+    </div>
+
+    <!-- PROJECT 3 -->
+    <div class="project" id="project3">
+      <h2>Project Three</h2>
+      <p class="role">Designer / Systems</p>
+
+      <p>
+        Description for project three.
+      </p>
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
