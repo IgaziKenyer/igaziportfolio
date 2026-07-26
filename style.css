@@ -24,7 +24,7 @@ section {
 }
 
 a {
-    color: #a01d06;
+    color: #0b5085;
     text-decoration: none;
 }
 
@@ -34,7 +34,7 @@ a:hover {
 
 .links a {
   margin-right: 1rem;
-  color: #a01d06;     /* #0b5085 */
+  color: #0b5085;     /* #0b5085 */
   text-decoration: none;
 }
 
