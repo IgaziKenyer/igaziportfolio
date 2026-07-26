@@ -6,6 +6,15 @@ body {
   color: #eaeaea;
 }
 
+.center-image {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.center-image img {
+    max-width: 100%;
+    height: auto;
+}
 
 section {
   max-width: 900px;
